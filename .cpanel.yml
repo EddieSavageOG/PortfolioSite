@@ -1,0 +1,4 @@
+---
+  deployment: 
+    tasks: 
+      - export DEPLOYPATH=/home3/educate4/public_html/testing
