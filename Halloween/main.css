@@ -1,0 +1,50 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: black;
+  color: red;
+  font-family: 'Lacquer', serif;
+  text-align: center;
+  font-size: 100%;
+}
+
+img {
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Nosifer', cursive;
+  font-size: 300%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+.time {
+  color: darkorange;
+  font-size: 250%;
+
+}
+
