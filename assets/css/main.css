@@ -20,7 +20,7 @@
 /* start main CSS */
 
 body {
-	font-size: 110%;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	line-height: 1.75;
@@ -155,7 +155,7 @@ a:focus {
 .newFeature {
 	display: flex;
 	width: 65%;
-	justify-content: center;
+	text-align: left;
 	margin: 0 auto;
 	align-items: center;
 
@@ -167,13 +167,13 @@ a:focus {
 }
 
 .words {
-    text-align: center;
     margin: 0 5%;
 
 }
 
 .reverse {
 	flex-direction: row-reverse;
+	text-align: right;
 }
 
 .newFeature img {
@@ -300,6 +300,20 @@ button span {
 
 .textyContainer p {
 	padding-bottom: 1em;
+}
+
+.processDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#Flow img{
+	width: 100%;
+}
+
+#flowWords {
+	width: 80%;
 }
 
 
